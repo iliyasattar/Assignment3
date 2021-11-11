@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> HTML INPUT ELEMENTS</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body style="background-color: #B6EA2D">
+<form target="_self" action="insert.java" method="GET" enctype="multipart/form-data">
+	<hr>
+	<h2 style="font-family: sans-serif; color: #AD3C24"><center><b>STUDENT REGISTRATION FORM 2020-21</b></center></h2>
+	<hr>
+	<fieldset>
+		<legend id="myLegend" style="font-size: 14px">Student Information</legend>
+		<label>First Name :</label>
+		<input type="text" name="firstname" autocomplete, placeholder="First Name" > <br><br>
+		<label>Midle Name :</label>
+		<input type="text" name="middlename" autocomplete, placeholder="Middle Name" > <br><br>
+		<label>Last Name :</label>
+		<input type="text" name="lastname" autocomplete, placeholder="Last Name" > <br> <br>
+
+		<label>Father's Name :</label>
+		<input type="text" name="lastname" autocomplete, placeholder="Father Name" > <br> <br>
+
+		<label>Date of Birth</label>
+		<input type="Date" name="Date"> <br> <br>
+
+		<label>Gender :</label>
+		<label>Male</label>
+		<input type="checkbox" name="Gender">
+		<label>Female</label>
+		<input type="checkbox" name="Gender">
+		<label>Other</label>
+		<input type="checkbox" name="Gender"> <br><br>
+
+		<label>Category :</label>
+		<label>General</label>
+		<input type="radio" name="category">
+		<label>SC</label>
+		<input type="radio" name="category">
+		<label>ST</label>
+		<input type="radio" name="category">
+		<label>OBC</label>
+		<input type="radio" name="category"> <br><br>
+		
+		<label>Addmission Type</label>
+		<select>
+			<option>Management</option>
+			<option>Govt Quota</option>
+		</select> <br><br>
+
+		<label>Email</label>
+		<input type="Email" name="mail" placeholder="example@gmail.com"> <br><br>
+
+		<label>Adhaar Number :</label>
+		<input type="text" name="adhar" size="12" placeholder="XXXX XXXX XXXX XXXX"> <br><br>
+
+		<label>Contact Number :</label>
+		<input type="text" name="contry code" value="+91" size="2">
+		<input type="text" name="number" size="10"> <br><br>
+
+		<label>Address :</label> <br>
+		<textarea></textarea> <br><br>
+
+		<label>Upload Docoments :</label> <br> <br>
+		<label>Adhar Card :</label>
+		<input type="file" name="docoment" multiple> <br><br>
+		<label>SSLC Marks Card :</label>
+		<input type="file" name="docoment" multiple> <br><br>
+		<label>PUC Marks Card :</label>
+		<input type="file" name="docoment" multiple> <br><br>
+
+		<label>Declaration :</label> <br>
+		<input type="checkbox" name="name">
+		<label>I certify that above information provided by me is true and correct to the best of my knowledge,information and belief. I also agree to guidlines and instructions of the college</label> <br><br>
+
+		<button>Submit</button> <br><br>
+
+		<label>Not Sucessfully Submited</label>
+		<button>Reset</button>
+	</fieldset>
+</form>
+</body>
+</html>
